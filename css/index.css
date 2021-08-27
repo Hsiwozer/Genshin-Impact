@@ -1,0 +1,274 @@
+body,
+html {
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    font-family: Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.section1 {
+    position: relative;
+    background: url(../upload/bgimg1.jpg) 50%;
+    background-size: 100% auto;
+}
+
+.section2 {
+    position: relative;
+    background: url(../upload/bgimg2.jpg) 50% 100%;
+    background-size: 100% auto;
+}
+
+.section3 {
+    position: relative;
+    background: url(../upload/bgimg2.jpg) 50% 50%;
+    background-size: 100% auto;
+}
+
+.section4 {
+    background: url(../upload/bgimg2.jpg) 50% 100%;
+    background-size: 100% auto;
+}
+
+.section5 {
+    background: url(../upload/bgimg2.jpg) 50% 50%;
+    background-size: 100% auto;
+}
+
+
+/* section1部分 */
+
+.section1 .logo {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.section1 .website {
+    position: absolute;
+    top: 15px;
+    right: 85px;
+}
+
+.section1 .website img {
+    width: 75%;
+}
+
+.section1 .solgan {
+    position: absolute;
+    top: 170px;
+    left: 695px;
+    width: 38%;
+}
+
+.section1 .play {
+    position: absolute;
+    top: 390px;
+    left: 1180px;
+}
+
+.section1 .play img {
+    width: 70%;
+}
+
+.section1 .download {
+    position: absolute;
+    top: 530px;
+    left: 885px;
+}
+
+.section1 .download img {
+    width: 70%;
+}
+
+.section1 .age12 {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.section1 .age12 img {
+    width: 50%;
+}
+
+
+/* section2部分 */
+
+.section2 .title {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    width: 6%;
+}
+
+.swiper-container {
+    width: 790px;
+    height: 450px;
+    --swiper-navigation-color: transparent;
+    --swiper-navigation-size: 120px;
+    /* width: 50%;
+    height: 60%; */
+    /* overflow: hidden; */
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: url(../upload/bg.82d1155d.png) no-repeat;
+    background-size: 790px 450px;
+}
+
+.swiper-slide img {
+    width: 96%;
+    height: 93%;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    left: 0;
+    background: url(../upload/arrow_left.cad0d845.png) no-repeat center center;
+    background-size: 60px 60px;
+}
+
+.swiper-button-next {
+    position: absolute;
+    right: 0;
+    background: url(../upload/arrow_left.cad0d845.png) no-repeat center center;
+    background-size: 60px 60px;
+    transform: rotateY(180deg);
+}
+
+
+/* section3部分 */
+
+.section3 .roletit {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    width: 6%;
+}
+
+.mask-bg {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    width: 40%;
+}
+
+.change-item {
+    position: absolute;
+    top: 570px;
+    left: 380px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.change-item img {
+    width: 30%;
+}
+
+.role-intro {
+    position: relative;
+    margin: 0 auto;
+    width: 840px;
+    height: 100%;
+}
+
+.role-intro .role-name {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    width: 22%;
+}
+
+.role-intro .pv {
+    position: absolute;
+    top: 155px;
+    left: 230px;
+    width: 5%;
+}
+
+.role-intro .desc {
+    position: absolute;
+    top: 255px;
+    left: 30px;
+    width: 180px;
+    border-top: 1px solid #645583;
+    border-bottom: 1px solid #645583;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.role-intro .desc img {
+    width: 75%;
+}
+
+.role-intro .cv {
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    width: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.cv .cn-cv {
+    flex: 1;
+    background: url(../upload/cv.png) no-repeat;
+    background-size: 100% auto;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.cv .jp-cv {
+    flex: 1;
+    background: url(../upload/cv.png) no-repeat;
+    background-size: 100% auto;
+    color: #fff;
+    padding-left: 35px;
+}
+
+.role-intro .poster {
+    position: absolute;
+    left: 120px;
+    width: 106%;
+}
+
+.role-intro .text {
+    position: absolute;
+    top: 115px;
+    right: -95px;
+    width: 10%;
+}
+
+
+/* .footer {
+    height: 320px!important;
+    background: #000;
+} */

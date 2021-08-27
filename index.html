@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/fullpage.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>原神（仿）</title>
+</head>
+
+<body>
+    <div id="dowebok">
+        <div class="section section1">
+            <a href="javascript:;" class="logo">
+                <img src="./icons/logo.png" alt="">
+            </a>
+            <a href="javascript:;" class="website">
+                <img src="./icons/website.2f2856ad.png" alt="">
+                <img src="./icons/website_active.184a568f.png" alt="" style="display: none;">
+            </a>
+            <img src="./upload/slogan.31d36e88.png" alt="" class="solgan">
+            <a href="javascript:;" class="play">
+                <img src="./upload/play.c2857bc2.png" alt="">
+                <img src="./upload/play_active.5db1dd5a.png" alt="" style="display: none;">
+            </a>
+            <a href="javascript:;" class="download">
+                <img src="./icons/dl.3146d027.png" alt="">
+                <img src="./icons/dl_active.06fc5e5e.png" alt="" style="display: none;">
+            </a>
+            <a href="javascript:;" class="age12">
+                <img src="./icons/age12.png" alt="">
+            </a>
+        </div>
+        <div class="section section2">
+            <img src="./upload/title.272665c8.png" alt="" class="title">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery5.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery6.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery7.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery8.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./upload/scenery9.jpg" alt="">
+                    </div>
+
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="section section3">
+            <img src="./upload/roletit.png" alt="" class="roletit">
+            <img src="./upload/mask.af585467.png" alt="" class="mask-bg">
+            <div class="change-item">
+                <img src="./upload/sl.png" alt="">
+                <img src="./upload/sl-change.png" alt="" style="display: none;">
+                <img src="./upload/xg.png" alt="" style="display: none;">
+                <img src="./upload/xg-change.png" alt="">
+                <img src="./upload/zy.png" alt="" style="display: none;">
+                <img src="./upload/zy-change.png" alt="">
+            </div>
+            <div class="role-intro intro1">
+                <img src="./upload/role-name1.png" alt="" class="role-name">
+                <img src="./upload/role-play.png" alt="" class="pv">
+                <div class="desc">
+                    <img src="./upload/1_desc.e3c898be.png" alt="">
+                </div>
+                <div class="cv">
+                    <div class="cn-cv">中文CV：小N</div>
+                    <div class="jp-cv">日文CV：早见沙织</div>
+                </div>
+                <img src="./upload/1_poster.5e6e07b9.png" alt="" class="poster">
+                <img src="./upload/1_text.c8a5896c.png" alt="" class="text">
+            </div>
+        </div>
+        <div class="section section4"></div>
+        <div class="section section5"></div>
+    </div>
+    <!-- <footer class=".footer"></footer> -->
+
+    <script src="./js/jquery.mini.js"></script>
+    <script src="./js/fullpage.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        $(function() {
+            $('#dowebok').fullpage({
+                scrollingSpeed: 400
+            });
+        });
+        (function() {
+            var swiper = new Swiper('.swiper-container', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        })();
+    </script>
+</body>
+
+</html>
